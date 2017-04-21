@@ -1,0 +1,15 @@
+.form input {
+	margin-bottom: 10px;
+}
+
+.form {
+	text-align: center;
+}
+
+.declined {
+	background: #ec451e;
+}
+
+.validated {
+	background: #3ab957;
+}
