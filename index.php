@@ -10,13 +10,13 @@
 <body>
     <form action="" method="post" class="form" id="authorisation"> Ваша почта:
         <br>
-        <input name="адрес почты" id="email" placeholder="someadress@gmail.com">
+        <input id="email" placeholder="someadress@gmail.com">
         <br> Серия и номер паспорта:
         <br>
-        <input name="паспортные данные" id="passport" placeholder="1212 131313">
+        <input id="passport" placeholder="1212 131313">
         <br> Номер телефона:
         <br>
-        <input name="телефон" id="phone" placeholder="+7(965)-123-45-67">
+        <input id="phone" placeholder="+7(965)-123-45-67">
         <br>
         <br>
         <button type="button" id="send">Отправить</button>
