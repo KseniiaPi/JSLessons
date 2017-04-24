@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {	
+	width: 400px;
+	height: 560px;
+	margin-left: 38%;
+	margin-top: 30px;
+	text-align: justify;
+	font-family:sans-serif;
+}
+
+.tabs {
+	width: 404px;
+	height: 60px;
+}
+
+.clear {
+	clear: both;
+}
+
+.block1,
+.block2,
+.block3 {
+	border: 1px solid black;
+	width: 380px;
+	height: 500px;
+	padding: 10px;
+	border-top: none;
+}
+
+.tab {
+	width: 32.8%;
+	float: left;
+	border: 1px solid black;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-left: none;
+}
+
+.tabs:first-child {
+	border-left: 1px solid black;
+}
+
+.bottom_remove {
+	border-bottom-width: 0;
+}
+
+.tab:hover {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
