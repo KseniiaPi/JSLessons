@@ -3,6 +3,8 @@
 	padding: 0;
 }
 
+/* Стили вкладок  */
+
 #wrapper {	
 	width: 400px;
 	height: 560px;
@@ -56,3 +58,46 @@
 .hidden {
 	display: none;
 }
+
+/* Стили аккордеона  */
+
+.accordeon_wrapper {	
+	padding-left: 10%;
+}
+
+#accordeon {	
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-family: sans-serif;
+}
+
+.click_button {
+	background-color: #385765;
+	width: 80%;
+	height: 60px;
+	color: #fff;
+	font-size: 25px;	
+	padding-left: 10%;
+	padding-top: 10px;
+	border-bottom: 1px solid #3867AF;
+}
+
+.active_click_button{
+	background-color: #653860;
+}
+
+.passive_click_button{
+	background-color: #385765;
+}
+
+.text {
+	width: 80%;
+	height: 100px;
+	background-color: #f1def1;
+	padding: 10px 0 10px 10%;
+}
+
+.click_button:hover {
+	cursor: pointer;
+}
+
